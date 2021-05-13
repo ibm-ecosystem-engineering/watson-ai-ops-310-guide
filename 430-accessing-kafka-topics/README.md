@@ -22,18 +22,17 @@ oc project devaiops
 
 1. Patch the strimzi cluster
 
-    ```
+```
 oc patch Kafka strimzi-cluster -p '{"spec": {"kafka": {"listeners": {"external": {"type": "route"}}}}}' --type=merge
-
-    ```
+```
 
 2. After few seconds, a route should be created. 
 
     Run the below command.
 
-    ```
+```
     oc get routes
-    ```
+```
 
     The output should have route with the name `strimzi-cluster-kafka-bootstrap`
 
@@ -42,9 +41,9 @@ oc patch Kafka strimzi-cluster -p '{"spec": {"kafka": {"listeners": {"external":
 
 1. Get strimzi cluster `ca cert`
 
-    ```
+```
     oc extract secret/strimzi-cluster-cluster-ca-cert --keys=ca.crt --to=- > ca.crt
-    ```
+```
 
 2. Get strimzi cluster `sasl password`
 
