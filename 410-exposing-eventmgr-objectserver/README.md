@@ -95,7 +95,7 @@ To push events, we need password along with the above url.
 Get the password from the secret ends with `omni-secret`
 
 ```bash
-oc get secret noi-omni-secret -o yaml
+oc get secret evtmanager-omni-secret -o yaml
 ```
 
 You need to decrypt the password like this.
