@@ -48,5 +48,4 @@ Here are the screenshots.
 <img src="images/image-48.png">
 <img src="images/image-49.png">
 <img src="images/image-50.png">
-<img src="images/image-51.png">
 
