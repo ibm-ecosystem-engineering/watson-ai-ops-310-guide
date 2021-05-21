@@ -43,9 +43,4 @@ Here are the screenshots.
 <img src="images/image-43.png">
 <img src="images/image-44.png">
 <img src="images/image-45.png">
-<img src="images/image-46.png">
-<img src="images/image-47.png">
-<img src="images/image-48.png">
-<img src="images/image-49.png">
-<img src="images/image-50.png">
 
