@@ -11,7 +11,7 @@ The article is based on the the following.
 
 2. In the `ServiceNow` card click on the `Add Integration` link
 
-<img src="images/image-1.png">
+<img src="images/2-image-1.png">
 
 3. Enter the below field values
 
@@ -31,11 +31,11 @@ The article is based on the the following.
 
 4. Click on `Integrate`
 
-<img src="images/image-2.png">
-<img src="images/image-3.png">
-<img src="images/image-4.png">
-<img src="images/image-5.png">
+<img src="images/2-image-2.png">
+<img src="images/2-image-3.png">
+<img src="images/2-image-4.png">
+<img src="images/2-image-5.png">
 
 5. Integration is created.
 
-<img src="images/image-6.png">
+<img src="images/2-image-6.png">

@@ -31,10 +31,10 @@ To know more about how to access kafka topics refer here [800-accessing-kafka-to
 
 ## Enable Data flow for Training
 
-<img src="images/1-kafka-on-1.png">
-<img src="images/1-kafka-on-2.png">
-<img src="images/1-kafka-on-3.png">
-<img src="images/1-kafka-on-4.png">
+<img src="images/2-1-kafka-on-1.png">
+<img src="images/2-1-kafka-on-2.png">
+<img src="images/2-1-kafka-on-3.png">
+<img src="images/2-1-kafka-on-4.png">
 
 ## Push training events to kafka topic
 
@@ -45,18 +45,18 @@ sh ./files/01-post-training-events.sh
 ```
 ## Disable Data flow
 
-<img src="images/2-kafka-off-1.png">
-<img src="images/2-kafka-off-2.png">
-<img src="images/2-kafka-off-3.png">
+<img src="images/2-2-kafka-off-1.png">
+<img src="images/2-2-kafka-off-2.png">
+<img src="images/2-2-kafka-off-3.png">
 
 
 ## Start Training
 
-<img src="images/3-Training-1.png">
-<img src="images/3-Training-2.png">
-<img src="images/3-Training-3.png">
-<img src="images/3-Training-4.png">
-<img src="images/3-Training-5.png">
-<img src="images/3-Training-6.png">
-<img src="images/3-Training-7.png">
+<img src="images/2-3-Training-1.png">
+<img src="images/2-3-Training-2.png">
+<img src="images/2-3-Training-3.png">
+<img src="images/2-3-Training-4.png">
+<img src="images/2-3-Training-5.png">
+<img src="images/2-3-Training-6.png">
+<img src="images/2-3-Training-7.png">
 

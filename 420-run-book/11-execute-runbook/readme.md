@@ -1,6 +1,6 @@
 # Runbook Execution
 
-This article explain about how to execute the run book in the event manager.
+This article explain about how to execute run book in Event Manager.
 
 The article is based on the the following
 
@@ -9,9 +9,9 @@ The article is based on the the following
 
 ## Steps
 
-Whenever an event created in event manager, the event manager flag the event if any of the runbook trigger condition matches the event attribute.
+Whenever an event created in event manager, the event manager flags the event if the event attribute matches to the trigger condition of any of the runbook stored in event manager.
 
-You can see the Dot under `Runbook` column for the `Rating Pod Down` event.
+You can see the dot under `Runbook` column for the `Rating Pod Down` event.
 
 Click on the event record
 

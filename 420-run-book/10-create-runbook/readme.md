@@ -5,13 +5,39 @@
 3. Go to Automation -> Runbooks --> New Automation --> Create a script based automation by copying/typing the required commands. Optionally give the target system IP and username with which script has to be executed in target system --> Save the automation.
 4. Go to Library --> New Runbook --> Give name, desc etc and select "Add automation step" and add 5. script automation created in previous step.
 
+This article explain about how to create run book in Event Manager.
 
-Here are the screenshots.
+The article is based on the the following
+
+- RedHat OpenShift 4.6 on IBM Cloud (ROKS)
+- Watson AI-Ops 3.1.0
+
+## Steps
+
+In the event manager click on `Automation --> Runbook`
 
 <img src="images/image-11.png">
+
+We are going to create a Runbook which has some automation scripts.
+
+Click on `Automation --> New Automation`
+
 <img src="images/image-12.png">
+
+Being, it is first time, we need to configure Integrations to connect from Event Manager to the target system, from where the script is going to get executed.
+
+Click on `Configure`
+
 <img src="images/image-13.png">
+
+You are in Integrations page.
+
+Click on `Configure`
+
 <img src="images/image-14.png">
+
+ssh into the target system, from where 
+
 <img src="images/image-15.png">
 <img src="images/image-16.png">
 <img src="images/image-17.png">
