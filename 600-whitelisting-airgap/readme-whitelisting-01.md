@@ -1,12 +1,12 @@
 # AIOps install - whitelisting and AirGap
 
-To install WA 3.1 in an island in cloud, which allow to access internet. But here is the list of details about port to opend and url to whitelist
+To install WA 3.1 in an island in cloud, which allow to access internet. But some of the urls to be whitelisted and port to be opened.
 
 Assuming Internal VPC, port restrictions are not there. VMs (Humio, PI) , OCP can communicate to each other on multiple ports.
 
 ## Domains
 
-Here is the urls to whitelistd.
+Here are the urls to white listed.
 
 ```
 icr.io
@@ -19,12 +19,12 @@ https://ibm.com
 https://redhat.com
 ```
 
-All the websites needs the `port 80/443` to be open
+All the websites needs the `port 80/443` to be open.
 
 
 ## Tools
 
-Here is the tools to be installed. The domains related to that also to be accessible
+Here are the tools to be installed. The domains related to that also to be accessible
 
 ```
 kubectl (Kubectl CLi)
@@ -44,7 +44,6 @@ ibmcloud plugin install kubernetes-service
 ```
 
 ## Detailed Breakup
-
 
 ### 1. Container Registry
 
@@ -127,6 +126,4 @@ Predictive Insight required to get images from IBM Partner World Portal
 ```
 https://www.ibm.com/partnerworld/program/benefits/software-access-catalog
 ```
-
-
 
