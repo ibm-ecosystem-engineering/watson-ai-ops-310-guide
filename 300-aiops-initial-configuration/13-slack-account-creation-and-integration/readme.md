@@ -124,9 +124,19 @@ Click on `Install in Workspace`.
 
 <img src="images/image-00031.png">
 
-Copy the `Bot User oAuth Token`.
+Click on `Allow` button.
+
+<img src="images/image-00053.png">
+
+Copy the `Bot User oAuth Token` to notepad.
 
 <img src="images/image-00032.png">
+
+Click on left menu `Basic Information`
+
+Click on the `Show` and copy the `Signing Secret` to notepad.
+
+<img src="images/image-00070-sign.png">
 
 Right click on the Channel and choose the `copy Link` and paste in notepad.
 
@@ -170,7 +180,20 @@ Copy the slack url
 
 <img src="images/image-00042.png">
 
-## 5. Integrate AI-Ops in Slack
+
+## 5. Update Nginx Certificate
+
+https://pages.github.ibm.com/up-and-running/watson-aiops/AI_Manager/Installation/#ngnix-certificate-for-v31
+
+<img src="images/image-00047.png">
+
+Need to restart the nginx pods like the below. But this is not required as we patch `slash command` in the upcoming steps.
+
+<img src="images/image-00059.png">
+<img src="images/image-00060.png">
+
+
+## 6. Integrate AI-Ops in Slack
 
 Click on `Event Subscription` from the left menu
 
@@ -199,17 +222,6 @@ Click on `Save Changes`
 
 <img src="images/image-00049.png">
 
-
-## 6. Update Nginx Certificate
-
-https://pages.github.ibm.com/up-and-running/watson-aiops/AI_Manager/Installation/#ngnix-certificate-for-v31
-
-<img src="images/image-00047.png">
-
-Need to restart the nginx pods like the below. But this is not required as we patch `slash command` in the upcoming steps.
-
-<img src="images/image-00059.png">
-<img src="images/image-00060.png">
 
 
 ## 7. Create Slash Command
