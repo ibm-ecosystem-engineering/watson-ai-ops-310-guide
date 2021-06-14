@@ -56,17 +56,17 @@ Paste the key in the vi and save it.
 
 <img src="images/image-19.png">
 
-Click on `Save` this.
+Click on `Save`.
 
 <img src="images/image-20.png">
 
 You can see the script is connected with the target system.
 <img src="images/image-21.png">
 
-Goto `Automation > Runbooks > Automations`
+Goto `Automation > Runbooks`
 <img src="images/image-22.png">
 
-Click on `New Automation`
+Click on `Automations > New Automation`
 <img src="images/image-23.png">
 
 Enter values for the High lighted fields.
@@ -147,15 +147,40 @@ Click on `Triggers > Create New Trigger`.
 Give `Name` and `Description`.
 
 Give `Attribute`, `Operator` and `Value`.
+
+Here `Attribute` and `Value` should match the event you get in event manager. Then only this runbook will get associated with that event.
+
 <img src="images/image-42.png">
 
-Choose the runbook `Attribute`.
+Sample Event. 
+
+Here Attribute is `Summary` and the value of that is `Rating Pod down`
+```
+  .....
+            "Node":"ratings-v1-b6994bb9-js9rj",
+            "AlertGroup":"Availability",
+            "AlertKey":"ServiceDown",
+            "Summary":"Rating Pod down",
+            "Identifier":"ratings-v1-b6994bb9-js9rj",
+            "OwnerGID":0,
+            "Severity":5,
+            "OwnerUID":0,
+            "Type":1,
+            "Manager":"CEM",
+            "ScopeID":"BookInfoD",
+            "Customer":"BookInfoDEnterprise"
+  .....
+```
+
+Choose the runbook.
 
 Click on `Select the Runbook`.
 
 <img src="images/image-43.png">
 
-Un-check  `Manual` in `Execution`.
+Uncheck  `Manual` in `Execution`.
+
+Click on `Save`.
 
 <img src="images/image-44.png">
 
