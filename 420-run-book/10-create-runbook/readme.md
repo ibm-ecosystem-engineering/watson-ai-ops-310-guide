@@ -7,12 +7,20 @@
 
 This article explain about how to create run book in Event Manager.
 
+The runbook creating involves the following steps.
+
+- Connect Backend System with SSH
+- Create New Automation
+- Create RunBook
+- Create Trigger
+
+
 The article is based on the the following
 
 - RedHat OpenShift 4.6 on IBM Cloud (ROKS)
 - Watson AI-Ops 3.1.0
 
-## Steps
+## 1. Connect Backend System with SSH
 
 In the event manager click on `Automation --> Runbook`
 
@@ -63,6 +71,8 @@ Click on `Save`.
 You can see the script is connected with the target system.
 <img src="images/image-21.png">
 
+## 2. Create New Automation
+
 Goto `Automation > Runbooks`
 <img src="images/image-22.png">
 
@@ -104,6 +114,8 @@ You can see the automation created here.
 
 <img src="images/image-31.png">
 
+## 3. Create RunBook
+
 Click on `Library` and `New Runbook`.
 
 <img src="images/image-32.png">
@@ -140,6 +152,8 @@ Shows created Runbook.
 
 <img src="images/image-40.png">
 
+## 4. Create Trigger
+
 Click on `Triggers > Create New Trigger`.
 
 <img src="images/image-41.png">
@@ -152,7 +166,7 @@ Here `Attribute` and `Value` should match the event you get in event manager. Th
 
 <img src="images/image-42.png">
 
-Sample Event. 
+#### Sample Event. 
 
 Here Attribute is `Summary` and the value of that is `Rating Pod down`
 ```
