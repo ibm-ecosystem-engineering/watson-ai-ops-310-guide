@@ -208,6 +208,9 @@ Paste the slack url and the status becomes verified.
 
 Choose the below item to in the `Subscribe to bot Events` section.
 
+- app_mention
+- member_joined_channel
+
 Click on `Save Changes` 
 
 <img src="images/image-00048.png">

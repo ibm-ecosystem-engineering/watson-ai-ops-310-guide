@@ -36,37 +36,130 @@ Click on `Configure`
 
 <img src="images/image-14.png">
 
-ssh into the target system, from where 
+ssh into the target system.
 
 <img src="images/image-15.png">
+
+Copy the file name high lighted.
+
 <img src="images/image-16.png">
+
+In the target system, vi into the file.
+
 <img src="images/image-17.png">
+
+Copy the Key from the UI.
+
 <img src="images/image-18.png">
+
+Paste the key in the vi and save it.
+
 <img src="images/image-19.png">
+
+Click on `Save` this.
+
 <img src="images/image-20.png">
+
+You can see the script is connected with the target system.
 <img src="images/image-21.png">
+
+Goto `Automation > Runbooks > Automations`
 <img src="images/image-22.png">
+
+Click on `New Automation`
 <img src="images/image-23.png">
+
+Enter values for the High lighted fields.
+
 <img src="images/image-24.png">
+
 <img src="images/image-25.png">
+
+Give your script in the `Script` text box.
+
+This script will get executed when the runbook is started.
+
+Click on `Edit` button in the `target` row.
 <img src="images/image-26.png">
+
+You can enter here the `IP Address` of the target system.
+
+Click on  `Save`
+
 <img src="images/image-27.png">
+
+Click on `Edit` button in the `user` row.
+
 <img src="images/image-28.png">
+
+You can enter the `user id` here to login into target system.
+
 <img src="images/image-29.png">
+
+Click on  `Save`
+
 <img src="images/image-30.png">
+
+You can see the automation created here.
+
 <img src="images/image-31.png">
+
+Click on `Library` and `New Runbook`.
+
 <img src="images/image-32.png">
+
+
 <img src="images/image-33.png">
+
+Enter `Name` and `Description`.
+
+Click on `Add automated step`.
+
 <img src="images/image-34.png">
+
+Select the listed `Automation`, which we created already.
+
+Click on `Select this automation`.
+
 <img src="images/image-35.png">
+
 <img src="images/image-36.png">
 <img src="images/image-37.png">
+
+It shows parameter mappings. you can choose `Use Default Value`
+
+Click on `Save`.
+
 <img src="images/image-38.png">
+
+Click on `Publish`.
+
 <img src="images/image-39.png">
+
+Shows created Runbook.
+
 <img src="images/image-40.png">
+
+Click on `Triggers > Create New Trigger`.
+
 <img src="images/image-41.png">
+
+Give `Name` and `Description`.
+
+Give `Attribute`, `Operator` and `Value`.
 <img src="images/image-42.png">
+
+Choose the runbook `Attribute`.
+
+Click on `Select the Runbook`.
+
 <img src="images/image-43.png">
+
+Un-check  `Manual` in `Execution`.
+
 <img src="images/image-44.png">
+
+Runbook is created.
+
 <img src="images/image-45.png">
 
