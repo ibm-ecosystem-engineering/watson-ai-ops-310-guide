@@ -31,6 +31,17 @@ Here are the steps to create Event Manager Gateway.
 
 7. Enter the below value in `Filter` field. This is to filter the events, Only the events satisfying the filtered conditions would be send to AI-Manager.
 
+This Step is Optional. 
+
+You can give the below value to send only the events with Severity greter than 3.
+
+```
+( Severity>3 )
+
+```
+
+For the bookinfo demo setup, you can give this value.
+
 ```
 ( Type IN (1, 13, 20) AND Class != 99999 AND Manager = \'CEM\')
 ```
