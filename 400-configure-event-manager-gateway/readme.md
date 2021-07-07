@@ -7,6 +7,9 @@ The article is based on the the following
 - RedHat OpenShift 4.6 on IBM Cloud (ROKS)
 - Watson AI-Ops 3.1.0
 
+
+## 1. Create Event Manager Gateway
+
 Here are the steps to create Event Manager Gateway.
 
 1. Goto `Installed Operators` Page in the Openshift Container Platform. 
@@ -58,6 +61,27 @@ If you have metrics manager installed, you can have the filter like this.
 8. Click on `Create` button
 
 The event mangaer gateway should have been created.
+
+## 2. Update filters in Event Manager Gateway
+
+If you want to update the filter after you created gateway, follow the steps below.
+
+
+1. Goto `Installed Operators` 
+
+Click on `EventManagerGateway` link in the `IBM Watson AIOps AI Manager` operator 
+
+<img src="images/image6.png">
+
+2. In the tab `EventManagerGateway`, click on the instance. Here it is `emgateway`
+
+<img src="images/image7.png">
+
+3. Click on tab `Yaml`, it shows yaml file. Here `filter` field at the line no. `64`.
+
+Update the filter and save it.
+
+<img src="images/image8.png">
 
 ## Reference: 
 
