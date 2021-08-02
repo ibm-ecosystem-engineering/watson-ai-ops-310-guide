@@ -17,12 +17,9 @@ The list shows a group called `devbi`.
 Kubernetes resources, such as pod, service, deployment, node and etc, available in the namespace `devbi` should have been observed through Kubernetes observer and the group `devbi` should have been created. 
 
 
-
-
-
 To know how to create kubernetes observer, you can refer the link 
 
-[00-aiops-initial-configuration/12-setup-kubernetes-integration](../300-aiops-initial-configuration/12-setup-kubernetes-integration)
+[00-aiops-initial-configuration/12-setup-kubernetes-integration](../../300-aiops-initial-configuration/12-setup-kubernetes-integration)
 
 <img src="images/image-15.png">
 
