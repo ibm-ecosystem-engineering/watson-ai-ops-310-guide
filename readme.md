@@ -207,7 +207,7 @@ Here are the steps involved.
         </td>
     </tr>    
         <tr>
-        <td>5.6</td>
+        <td>5.7</td>
         <td>Create runbooks</td>
         <td>Create runbooks in `Event Manager` to resolve the issue</td>
         <td>
