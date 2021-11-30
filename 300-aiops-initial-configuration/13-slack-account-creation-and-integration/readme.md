@@ -183,14 +183,21 @@ Copy the slack url
 
 ## 5. Update Nginx Certificate
 
-https://pages.github.ibm.com/up-and-running/watson-aiops/AI_Manager/Installation/#ngnix-certificate-for-v31
+1. Login into AIOps installed cluster using `oc login ...` command .
 
-<img src="images/image-00047.png">
+2. Goto the AIOps installed namespace `oc project ...`
 
-Need to restart the nginx pods like the below. But this is not required as we patch `slash command` in the upcoming steps.
+3. There is a script file [update-nginx-v310.sh](./files/update-nginx-v310.sh)
 
-<img src="images/image-00059.png">
-<img src="images/image-00060.png">
+Run the script.
+
+```
+sh files/update-nginx-v310.sh
+```
+
+This will update the nginx certificate.
+
+Note: The same script is also available in  https://pages.github.ibm.com/up-and-running/watson-aiops/AI_Manager/Installation/#ngnix-certificate-for-v31
 
 
 ## 6. Integrate AI-Ops in Slack
