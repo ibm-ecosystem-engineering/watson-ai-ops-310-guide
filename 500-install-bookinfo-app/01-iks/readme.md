@@ -20,6 +20,12 @@ Create a Namespace called `bookinfo`
 kubectl create ns bookinfo
 ```
 
+Get into the `bookinfo` namespace
+
+```
+kubectl config set-context --current --namespace=bookinfo
+```
+
 ### 3. Deploy Bookinfo
 
  Apply the yaml to install the book info app.
@@ -27,6 +33,8 @@ kubectl create ns bookinfo
   ```
   kubectl apply -f ./files/bookinfo.yaml
   ```
+
+
 
 ### 4. Get EXTERNAL-IP
 
